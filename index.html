@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agritech Solutions</title>
+
+    <!-- Code for font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Code for font awesome cdn -->
+
+    <!-- Code for linking css file -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Code for linking css file -->
+
+    <!-- code for linking the swiper css file -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <!-- code for linking the swiper css file -->
+
+    <!-- favicon -->
+    <link rel="icon" href="image/favicon.PNG">
+    <!-- favicon -->
+
+</head>
+<body>
+    <!-- Code for header section -->
+    <header class="header">
+        <a href="#" class="logo"><i class="fa fa-leaf" aria-hidden="true">Agritech</i></a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#aboutus">About Us</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fa fa-bars" id="menu-btn"></div>
+            <div class="fa fa-search" id="search-btn"></div>
+            <div class="fa fa-shopping-cart" id="cart-btn"></div>
+            <div class="fa fa-user" id="login-btn"></div>
+        </div>
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="search here....">
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+
+        <div class="shopping-cart" id="cart">
+            <div class="box">
+            
+            </div>
+        </div>
+
+        <form action="login.php" method="POST" class="login-form">
+            <h3>Login Now</h3>
+            <input type="email" name="email" placeholder="your email..." class="box">
+            <input type="password" name="password" placeholder="your password..." class="box">
+            <p>
+            Forget Your password <a href="#" id="forgot-password">Click here</a>
+            </p>
+            <p>
+            don't have an account <a href="#" id="create-account">Create Now</a>
+            </p>
+            <input type="submit" value="Login now" class="btn">
+        </form>
+    </header>
+    <!-- Code for banner section -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>🌾 Welcome to <span>AgriTech!</span>🌾</h3>
+            <p>Empowering Farmers with Cutting-Edge Solutions: From Fertilizers and Weather Forecasts to Direct Customer Services and Expert Consultancy. Grow Smart, Grow Better! 🌱🚜 </p>
+        </div>
+    </section>
+    <!-- Code for banner section -->
+
+    <!-- Code for features section -->
+    <section class="features" id="features"></section>
+
+    <!-- Code for features section-->
+    <section class="features" id="features">
+        <h1 class="heading">our <span> features</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="image/fertilizer.png" height="200">
+                <h3>Best Fertilizers</h3>
+                <p>Discover the best fertilizers available to help your plants thrive. From versatile all-purpose options to specialized organic choices, find the perfect solution for your agricultural needs.</p>
+                <a href="features.html" class="btn">Explore</a>
+            </div>
+            <div class="box">
+                <img src="image/weather.jpg" height="200">
+                <h3>REALTIME WEATHER</h3>
+                <p>Stay updated with the latest weather to make smart agricultural decisions. Access real-time data on temperature, rainfall, and more to ensure the best outcomes for your crops and livestock..</p>
+                <a href="#" class="btn">Explore</a>
+            </div>
+            <div class="box">
+                <img src="image/organic.jpg" height="200">
+                <h3>Waste to Wealth</h3>
+                <p>Learn practical methods to turn agricultural waste into effective organic fertilizers. Improve soil health, boost plant growth, and reduce waste with eco-friendly solutions for a thriving farm.</p>
+                <a href="#" class="btn">Explore</a>
+            </div>
+        </div>
+        <br>
+        <div class="box-container">
+            <div class="box">
+                <img src="image/cattle.jpg" height="200">
+                <h3>Cattle Health</h3>
+                <p>Get essential tips and advice to keep your cattle healthy and productive. Learn about disease prevention, nutrition, and care to ensure the well-being of your livestock.</p>
+                <a href="#" class="btn">Explore</a>
+            </div>
+            <div class="box">
+                <img src="image/plowing.jpg" height="200">
+                <h3>Plowing Planner</h3>
+                <p>Use weather forecasts to plan your plowing activities. Optimize your fieldwork by choosing the best days based on real-time weather data for improved efficiency.</p>
+                <a href="#" class="btn">Explore</a>
+            </div>
+            <div class="box">
+                <img src="image/expert.jpg" height="200">
+                <h3>Expert Guidance</h3>
+                <p>Access expert consultancy for your farming needs. Receive personalized advice and solutions to enhance your agricultural practices and boost farm productivity.</p>
+                <a href="#" class="btn">Explore</a>
+            </div>
+        </div>
+    </section>
+    <!-- code for features section -->
+
+    <!-- code for products section -->
+    <section class="products" id="products">
+        <h1 class="heading">Farm Fresh<span>products</span></h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image/grains.jpg" alt="grains" >
+                    <div class="content">
+                        <h1>Grains</h1>
+                        <p>Discover high-quality grains grown by our dedicated farmers. Enjoy fresh, nutritious options like wheat, rice, and corn, delivered straight from the source to you. Support local agriculture and sustainable farming practices.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/Wheat2.jpg" alt="wheat" >
+                    <div class="content">
+                        <h3>Wheat</h3>
+                        <div class="price">
+                            59&#x20b9; - 79&#x20b9;
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/rice3,jpg.jpg" alt="rice" >
+                    <div class="content">
+                        <h3>Rice</h3>
+                        <div class="price">
+                            88&#x20b9; -127&#x20b9;
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/barley2.jpg" alt="barley" >
+                    <div class="content">
+                        <h3>Barley</h3>
+                        <div class="price">
+                            149&#x20b9; - 399&#x20b9;
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/oats2.jpg" alt="oats" >
+                    <div class="content">
+                        <h3>Oats</h3>
+                        <div class="price">
+                            80&#x20b9; - 399&#x20b9;
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/millet.jpg" alt="millet" >
+                    <div class="content">
+                        <h3>Millet</h3>
+                        <div class="price">
+                            29&#x20b9; - 59&#x20b9;
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/corn.jpg" alt="corn" >
+                    <div class="content">
+                        <h3>Corn</h3>
+                        <div class="price">
+                            19&#x20b9; - 29&#x20b9;
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!-- this is for the fruits section of product -->
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image/fruits.jpg" alt="fruits" >
+                    <div class="content">
+                        <h1>Fruits</h1>
+                        <p>Savor the taste of farm-fresh fruits. Our farmers bring you a variety of ripe, flavorful fruits like mangoes, bananas, and oranges, harvested at peak freshness and delivered directly to your table. Support local agriculture.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/water.jpg" alt="water" >
+                    <div class="content">
+                        <h3>Watermelon</h3>
+                        <div class="price">
+                            19&#x20b9; - 29&#x20b9;
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/mango.jpg" alt="mango" >
+                    <div class="content">
+                        <h3>Mango</h3>
+                        <div class="price">
+                            59&#x20b9; - 79&#x20b9;
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/pine.jpg" alt="pine" >
+                    <div class="content">
+                        <h1>Pineapple</h1>
+                        <div class="price">
+                            88&#x20b9; -127&#x20b9;
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/apple.jpg" alt="apple" >
+                    <div class="content">
+                        <h3>Apple</h3>
+                        <div class="price">
+                            149&#x20b9; - 399&#x20b9;
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/orange.jpg" alt="orange" >
+                    <div class="content">
+                        <h3>Orange</h3>
+                        <div class="price">
+                            80&#x20b9; - 399&#x20b9;
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/dalimb.jpg" alt="pomegranate" >
+                    <div class="content">
+                        <h3>Pomegranate</h3>
+                        <div class="price">
+                            29&#x20b9; - 59&#x20b9;
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- this is for the fruits section of product -->
+
+        <!-- code for vegetables in the product category -->
+
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image/vege (1).jpg" alt="vegetables" >
+                    <div class="content">
+                        <h1>Vegetables</h1>
+                        <p>Enjoy the best in farm-fresh vegetables. Our farmers provide a wide selection of crisp, nutritious vegetables, picked at their prime and brought straight to you. Relish the natural flavors and support sustainable farming practices.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/potato.jpg" alt="potato" >
+                    <div class="content">
+                        <h3>Potato</h3>
+                        <div class="price">
+                            19&#x20b9; - 29&#x20b9;
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/onion.jpg" alt="onion" >
+                    <div class="content">
+                        <h3>Onion</h3>
+                        <div class="price">
+                            25&#x20b9; - 35&#x20b9;
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/tomato.jpg" alt="tomato" >
+                    <div class="content">
+                        <h1>Tomato</h1>
+                        <div class="price">
+                            29&#x20b9; -49&#x20b9;
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/cab.jpg" alt="cabbage" >
+                    <div class="content">
+                        <h3>Cabbage</h3>
+                        <div class="price">
+                            19&#x20b9; - 29&#x20b9;
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/cauli.jpg" alt="cauliflower" >
+                    <div class="content">
+                        <h3>Cauliflower</h3>
+                        <div class="price">
+                            39&#x20b9; - 59&#x20b9;
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/peas.jpg" alt="green peas" >
+                    <div class="content">
+                        <h3>green peas</h3>
+                        <div class="price">
+                            99&#x20b9; - 149&#x20b9;
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- code for vegetables in the product category -->
+
+        
+    </section>
+    <!-- code for products section -->
+
+
+    <!-- code for the review section -->
+
+    <section class="review" id="reviews">
+        <h1 class="heading">Customer's<span>Review</span></h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image/pic-1.png" alt="Person 1">
+                    <p>"The fruits I ordered were fresh and delicious. The mangoes, bananas, and oranges arrived perfectly ripe and full of flavor. I love knowing I'm supporting local farmers while enjoying such quality produce. Highly recommend!"</p>
+                    <h3>Jon Doe</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                </div> <!-- Closing tag for .box -->
+                <div class="swiper-slide box">
+                    <img src="image/pic-2.png" alt="Person 2" height="200">
+                    <p>"I am very pleased with the grains and fruits from this site. The wheat and rice were top-notch, and the fruits, especially the mangoes, were exceptionally fresh. Delivery was quick, and the quality was excellent."</p>
+                    <h3>David Brown</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                </div> <!-- Closing tag for .box -->
+                <div class="swiper-slide box">
+                    <img src="image/pic-3.png" alt="Person 3">
+                    <p>"I am very pleased with the grains and fruits from this site. The wheat and rice were top-notch, and the fruits, especially the mangoes, were exceptionally fresh. Delivery was quick, and the quality was excellent."</p>
+                    <h3>Michael Johnson</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div> <!-- Closing tag for .box -->
+                <div class="swiper-slide box">
+                    <img src="image/pic-4.png" alt="Person 4">
+                    <p>"I’ve never had such fresh and delicious fruits delivered to my door. The bananas and oranges were perfect. The quality of the grains I ordered was equally impressive. I’ll definitely be ordering again soon."
+                    </p>
+                    <h3>William Davis</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                </div> <!-- Closing tag for .box -->
+            </div> <!-- Closing tag for .wrapper -->
+        </div>
+    </section>
+
+    <!-- code for the review section -->
+
+    <!-- code for the footer section -->
+
+    <section class="footer" id="aboutus">
+        <div class="box-container">
+            <div class="box">
+                <h3>AgriTech <i class="fa fa-leaf"></i> </h3>
+                <p>We would love to hear from you! Feel free to reach out with any questions or feedback. Our team is here to help you with your needs.</p>
+
+                <div class="share">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#" class="links"><i class="fa fa-phone"></i>+91 1234567890</a>
+                <a href="#" class="links"><i class="fa fa-phone"></i>+111-222-3333</a>
+                <a href="#" class="links"><i class="fa fa-evelope"></i>agritech@gmail.com</a>
+                <a href="#" class="links"><i class="fa fa-map-maker"></i>Dhule, Maharashtra</a>
+
+                </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Home</a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Features</a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Products</a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Categories</a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Reviews</a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> About Us</a>
+            </div>
+            <div class="box">
+                <h3>Newsletter</h3>
+                <p>Subscribe For Latest updates</p>
+                <input type="email" name="email" placeholder="  Your Email..." class="email">
+                <input type="submit" value="Subscribe" class="btn">
+                <img src="image/payment.png" alt="payment" class="payment-img"> 
+            </div>
+
+        </div>
+
+        <div class="credit">Created By <span>AgriTech Solutions </span>| All Rights Reserved</div>
+    </section>
+
+    <!-- code for the footer section -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <script src="js/script.js"></script>
+
+</body>
+</html>
